@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #d0d3d4;
+}
+
+.formulario{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+   height: 200px;
+    background: white;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    padding: 200px 20px 1px 0;
+    border-bottom: 1px solid rgb(253, 0, 0);
+}
+.formulario user{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .user{
+position: relative;
+border-bottom: 1px solid black;
+margin: 4px 0;
+}
+.user input{
+    width: 70%;
+    padding: 0 5px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+
+}
+.user label{
+    position: relative;
+    top: 50%;
+    left: 5px;
+    color: rgb(1, 114, 114) ;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+input[type="submit"] {
+ margin-left: 60px;
+width: 80%;
+height: 30px;
+border: 1px solid;
+}
